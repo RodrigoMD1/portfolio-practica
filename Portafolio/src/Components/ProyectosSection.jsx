@@ -8,39 +8,44 @@ const team = [
   },
   {
       avatar: "src/img/logosSkils/1012822_code_development_logo_mongodb_programming_icon.png",
-      name: "Micheal colorand",
-      title: "Software engineer",
+      name: "MongoDB",
+      
   },
   {
       avatar: " src/img/logosSkils/typescript logo.png",
-      name: "Brown Luis",
-      title: "Full stack engineer",
+      name: "TypeScript",
+      
   },
   {
       avatar: "src/img/logosSkils/git logo.png",
-      name: "Lysa sandiago",
-      title: "Head of designers",
+      name: "GIT",
+      
   },
   {
-      avatar: "https://randomuser.me/api/portraits/men/86.jpg",
-      name: "Daniel martin",
-      title: "Product designer",
+      avatar: "src/img/logosSkils/nodejs.png",
+      name: "NodeJS",
+     
   },
   {
-      avatar: "https://randomuser.me/api/portraits/men/46.jpg",
-      name: "Vicky tanson",
-      title: "Product manager",
+      avatar: "src/img/logosSkils/js.png",
+      name: "Javascript",
+      
   },
   {
-      avatar: "https://randomuser.me/api/portraits/men/29.jpg",
-      name: "Nilson kalin",
-      title: "DevOp engineer",
+      avatar: "src/img/logosSkils/css.png",
+      name: "CSS",
+     
   },
   {
-      avatar: "https://randomuser.me/api/portraits/women/44.jpg",
-      name: "Tina watersone",
-      title: "Brand designer",
+      avatar: "src/img/logosSkils/html.png",
+      name: "HTML",
+      
   },
+  {
+    avatar: "src/img/logosSkils/9073628_tailwind_icon.png",
+    name: "TailwindCSS",
+    
+},
 ]
 
 
@@ -48,15 +53,13 @@ export const ProyectosSection = () => {
  
 
 return (
-    <section className="py-14 bg-base-200 bg-gradient-to-r from-gray-700 via-gray-900 to-black">
+    <section className="py-14 bg-base-200 bg-gradient-to-l from-gray-700 via-gray-900 to-black">
         <div className="max-w-screen-xl mx-auto px-4 text-center md:px-8">
             <div className="max-w-xl mx-auto">
                 <h3 className="text-white text-3xl font-semibold sm:text-4xl">
                    SKILLS
                 </h3>
-                <p className="text-gray-600 mt-3">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy.
-                </p>
+                
             </div>
             <div className="mt-12">
                 <ul className="grid gap-8 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
@@ -72,7 +75,7 @@ return (
                                 </div>
                                 <div className="mt-2">
                                     <h4 className="text-white font-semibold sm:text-lg">{item.name}</h4>
-                                    <p className="text-indigo-600">{item.title}</p>
+                                    
                                 </div>
                             </li>
                         ))

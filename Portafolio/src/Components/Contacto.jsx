@@ -6,7 +6,7 @@ export const Contacto = () => {
         const servicesItems = ["Mobile development", "UI/UX Design", "web development", "SEO"]
     
         return (
-            <main className="flex overflow-hidden">
+            <main className="flex overflow-hidden bg-gradient-to-l from-gray-700 via-gray-900 to-black">
 
                 <div className="flex-1 hidden lg:block">
                     <img src="src/img/Proyectos-img/coding03.jpg" className="w-full h-screen object-cover" />
@@ -16,7 +16,7 @@ export const Contacto = () => {
                     <div className="max-w-lg flex-1 mx-auto px-4 text-white">
                         <div>
                             <h3 className="text-white text-3xl font-semibold sm:text-4xl">
-                                Get in touch
+                               Ponete en contacto
                             </h3>
                             <p className="mt-3">
                                 We’d love to hear from you! Please fill out the form bellow.
@@ -95,7 +95,7 @@ export const Contacto = () => {
                                 <textarea required className="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"></textarea>
                             </div>
                             <button
-                                className="w-full px-4 py-2 text-white font-medium bg-gray-800 hover:bg-gray-700 active:bg-gray-900 rounded-lg duration-150"
+                                className="w-full px-4 py-2 text-white font-medium bg-blue-400 hover:bg-gray-700 active:bg-gray-900 rounded-lg duration-150"
                             >
                                 Submit
                             </button>

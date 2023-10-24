@@ -13,7 +13,7 @@ import { Contacto } from '../Components/Contacto'
 export const MisRutas = () => {
     return (
 
-        <BrowserRouter>
+        <BrowserRouter >
             {/* Header y navegacion */}
             <HeaderNav />
 
@@ -21,28 +21,26 @@ export const MisRutas = () => {
             <HeroSection />
 
 
-            <h1 className='skills-text content-center text-center '>
-                skilss
-            </h1>
+          
             {/* contenido central */}
-            <section className='skills'>
+            <section className='skills bg-base-200 bg-gradient-to-r from-gray-700 via-gray-900 to-black'>
                 <Inicio />
             </section>
 
-            <div className="divider">OR</div>
+            
 
 
             <section className='Proyectos'>
                 <ProyectosSection />
             </section>
 
-            <div className="divider">OR</div>
+            
 
             <section className='Proyecto02'>
                 <Proyectos02 />
             </section>
 
-            <div className="divider">OR</div>
+           
 
             <section className='Contacto'>
                 <Contacto />
