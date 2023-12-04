@@ -28,7 +28,7 @@ export const Contacto = () => {
                         >
                             <div>
                                 <label className="font-medium">
-                                    Full name
+                                    Nombre completo
                                 </label>
                                 <input
                                     type="text"
@@ -48,12 +48,12 @@ export const Contacto = () => {
                             </div>
                             <div>
                                 <label className="font-medium">
-                                    Phone number
+                                    Numero de telefono
                                 </label>
                                 <div className="relative mt-2">
                                     <div className="absolute inset-y-0 left-3 my-auto h-6 flex items-center border-r pr-2">
-                                        <select className="text-sm bg-transparent outline-none rounded-lg h-full">
-                                            <option>US</option>
+                                        <select className="text-sm bg-black outline-none rounded-lg h-full">
+                                            <option>AR</option>
                                             <option>ES</option>
                                             <option>MR</option>
                                         </select>
@@ -68,7 +68,7 @@ export const Contacto = () => {
                             </div>
                             <div>
                                 <label className="font-medium">
-                                    Services
+                                    Servicios
                                 </label>
                                 <ul className="grid gap-y-2 gap-x-6 flex-wrap grid-cols-2 mt-3">
                                     {
@@ -90,14 +90,14 @@ export const Contacto = () => {
                             </div>
                             <div>
                                 <label className="font-medium">
-                                    Message
+                                    Mensaje
                                 </label>
                                 <textarea required className="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"></textarea>
                             </div>
                             <button
                                 className="w-full px-4 py-2 text-white font-medium bg-blue-400 hover:bg-gray-700 active:bg-gray-900 rounded-lg duration-150"
                             >
-                                Submit
+                                Enviar
                             </button>
                         </form>
                     </div>

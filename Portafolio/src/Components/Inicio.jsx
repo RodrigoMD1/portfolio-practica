@@ -8,7 +8,7 @@ export const Inicio = () => {
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-l from-gray-700 via-gray-900 to-black"></div>
       <div className="relative z-10 gap-5 items-center lg:flex">
         <div className="flex-1 max-w-lg py-5 sm:mx-auto sm:text-center lg:max-w-max lg:text-left px-12">
-          <h3 className="text-3xl text-white font-semibold md:text-4xl">
+          <h3 className="text-3xl text-white font-semibold md:text-7xl">
             Sobre mi  <span className="text-blue-400">soy un desarrollador web</span>
           </h3>
           <p className="text-white leading-relaxed mt-3">
